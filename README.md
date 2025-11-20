@@ -40,5 +40,8 @@ participación más baja; sin embargo, podrían incrementarla a través de promo
 Al final, el país que tiene un mayor impacto en términos comerciales es Estados Unidos, muy por encima de los demás mercados; 
 China y Alemania lo siguen. Esto demuestra que las ventas están muy concentradas en zonas desarrolladas, mientras que los países 
 emergentes constituyen áreas de oportunidad para la expansión global.
+**Dashboard:**
+<img width="1902" height="1015" alt="Dashboard Power BI" src="https://github.com/user-attachments/assets/3acd4509-36ae-4a47-a6ef-6ad3c350b928" />
+
 
 
