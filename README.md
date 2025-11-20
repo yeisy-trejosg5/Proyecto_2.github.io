@@ -1,29 +1,22 @@
 **Pasos seguidos para completar el proyecto:**
-Dicho proyecto se realiza para generar un modelo de constelación de hechos. 
-Primeramente, para entender la teoría del modelo de constelación de hechos, este se produce cuando
-hay múltiples tablas de hechos que comparten las mismas dimensiones. Se le denomina "constelación"
-porque, a diferencia de la estructura estrella que solo tiene un cubo de análisis, se crean múltiples cubos
-que se vinculan entre sí, dando lugar a una estructura más extensa y complicada. Esto es parecido a
-cómo varias estrellas forman una constelación en el cielo.
-Por otro lado, diferencias del modelo estrella y del modelo copo de nieve: El modelo estrella se define
-por tener una única tabla de hechos en el centro, que está conectada directamente a sus dimensiones, lo
-que lo convierte en fácil de comprender, aunque presenta algo de redundancia en los datos. El modelo
-copo de nieve, en contraste, también inicia con una única tabla de hechos, pero sus dimensiones se
-organizan en múltiples tablas interrelacionadas, lo que disminuye la redundancia, pero eleva la
-complejidad.
-Ahora, se identificaron al menos 4 dimensiones comunes entre las tablas de hechos como  DimProduct, DimDate, DimStore, DimCustomer). 
-Esto se puede visualizar  en la imagen: 
+Dicho proyecto se desarrolla con el objetivo de diseñar un modelo de constelación de hechos.
+Para comprender este modelo, es importante señalar que se utiliza cuando existen múltiples tablas de hechos que comparten las mismas dimensiones. Se denomina constelación porque, a diferencia del modelo estrella —que contiene un único “cubo” de análisis—, en este caso se generan varios cubos vinculados entre sí, formando una estructura de mayor alcance y complejidad. Esta relación es comparable con la forma en que varias estrellas se conectan para formar una constelación en el cielo.
+
+Respecto a las diferencias entre el modelo estrella y el modelo copo de nieve, se destaca lo siguiente:
+
+Modelo estrella: posee una única tabla de hechos conectada directamente con sus dimensiones. Su principal ventaja es la facilidad de interpretación, aunque puede presentar redundancia de datos.
+
+Modelo copo de nieve: también parte de una única tabla de hechos, pero sus dimensiones se descomponen en múltiples tablas interrelacionadas, lo que reduce la redundancia, pero incrementa la complejidad del modelo.
+
+En el proyecto realizado, se identificaron al menos cuatro dimensiones compartidas entre las diferentes tablas de hechos: DimProduct, DimDate, DimStore y DimCustomer, como se observa en el modelo expuesto en la siguiente imagen: 
 <img width="1892" height="991" alt="Modelo de datos-tabla de hechos" src="https://github.com/user-attachments/assets/fafffd78-8b4f-49d0-8f52-6bdd4053db1a" />
 
-Las tablas que se tomaron en cuenta fueron las siguientes:
+Asimismo, se consideraron las siguientes tablas para el análisis:
 <img width="410" height="495" alt="image" src="https://github.com/user-attachments/assets/5b658a72-c3f6-4968-b340-9321374197df" />
 
-En este tabla de hechos se debe revisar las relaciones porque en ocasiones Power BI no las enlaza con otras tablas que
-coninciden.
+Es importante recalcar que, en este tipo de estructuras, se deben verificar manualmente las relaciones, puesto que Power BI no siempre reconoce o enlaza correctamente las dimensiones compartidas.
 
-Seguidamente, se procedió a realizar un dashboard para presentar los datos pertinentes a analizar. La visualiazión de datos
-se puede evidenciar en la imagen llamada *Dashboard Power BI*.
-
+Finalmente, se diseñó un dashboard en Power BI con el propósito de visualizar la información relevante generada a partir del modelo. Esta visualización puede apreciarse en la imagen titulada Dashboard Power BI.
 
 **Storytelling**
 Dicho dashboard, peresenta el rendimiento comercial de dos años seguidos (2008 y 2009), mostrando 
