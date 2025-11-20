@@ -12,7 +12,9 @@ copo de nieve, en contraste, también inicia con una única tabla de hechos, per
 organizan en múltiples tablas interrelacionadas, lo que disminuye la redundancia, pero eleva la
 complejidad.
 Ahora, se identificaron al menos 4 dimensiones comunes entre las tablas de hechos como  DimProduct, DimDate, DimStore, DimCustomer). 
-Esto se puede visualizar  en la imagen llamado *Modelado de Datos-tablas de hechos*.
+Esto se puede visualizar  en la imagen: 
+<img width="1892" height="991" alt="Modelo de datos-tabla de hechos" src="https://github.com/user-attachments/assets/fafffd78-8b4f-49d0-8f52-6bdd4053db1a" />
+
 Las tablas que se tomaron en cuenta fueron las siguientes:
 <img width="410" height="495" alt="image" src="https://github.com/user-attachments/assets/5b658a72-c3f6-4968-b340-9321374197df" />
 
